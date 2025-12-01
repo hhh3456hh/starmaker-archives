@@ -85,8 +85,8 @@ export const AUTHOR_INFO = {
     { name: "Bilibili", link: "https://space.bilibili.com/30964521?spm_id_from=333.1387.0.0", icon: "📺" },
     { name: "抖音", link: "https://www.douyin.com/user/MS4wLjABAAAAWwSM3NnmEU7SDAl0r0POjk34gSZZ1SFYz0JXM0a_YOPylnDyF4ODBBnD-Ld5wDs5?from_tab_name=main", icon: "🎵" }
   ],
-  qrWechat: "images/微信.png",
-  qrAlipay: "images/支付宝.png"
+  qrWechat: "/images/微信.png",
+  qrAlipay: "/images/支付宝.png"
 };
 
 // Supporters List
