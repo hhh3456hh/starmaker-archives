@@ -34,7 +34,7 @@ const CharacterDetail: React.FC<CharacterDetailProps> = ({ character, onClose })
 
   const getRouteImage = (keyword: string, fallbackFile: string) => {
     const found = characterImages.find((img) => img.includes(keyword));
-    return resolvePath(found || `/images/${fallbackFile}`);
+    return resolvePath(found || `images/${fallbackFile}`);
   };
   // Treat any character with role 'SYSTEM' as the system guide (FAQ/basic guides)
   // Keep id fallback for compatibility.

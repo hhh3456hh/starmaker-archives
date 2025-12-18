@@ -22,7 +22,7 @@ export default function App() {
 
   useEffect(() => {
     const fetchCharacters = async () => {
-      const response = await fetch('/data/characters.json');
+      const response = await fetch('data/characters.json');
       const data = await response.json();
       setCharacters(data);
     };
@@ -31,10 +31,10 @@ export default function App() {
 
   // Custom hero images for the carousel
   const heroCharacters = [
-    { id: 'hero-1', avatarUrl: '/images/1.png' },
-    { id: 'hero-2', avatarUrl: '/images/2.png' },
-    { id: 'hero-3', avatarUrl: '/images/3.png' },
-    { id: 'hero-4', avatarUrl: '/images/4.png' }
+    { id: 'hero-1', avatarUrl: 'images/1.png' },
+    { id: 'hero-2', avatarUrl: 'images/2.png' },
+    { id: 'hero-3', avatarUrl: 'images/3.png' },
+    { id: 'hero-4', avatarUrl: 'images/4.png' }
   ];
 
   useEffect(() => {
@@ -90,7 +90,7 @@ export default function App() {
               <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">度假旅行三星达成条件展示</h3>
               <div className="flex justify-center">
                 <img 
-                  src="/images/度假旅行三星达成条件.png" 
+                  src="images/度假旅行三星达成条件.png" 
                   alt="度假旅行三星达成条件" 
                   className="rounded-2xl w-full max-w-2xl shadow-md"
                 />
@@ -429,7 +429,7 @@ export default function App() {
               <h3 className="text-2xl font-bold text-slate-800 mb-6">节日示意图</h3>
               <div className="flex justify-center">
                 <img 
-                  src="/images/节日示意图.png" 
+                  src="images/节日示意图.png" 
                   alt="节日活动示意图" 
                   className="rounded-2xl w-full max-w-2xl shadow-md"
                 />
@@ -820,19 +820,19 @@ export default function App() {
               <h3 className="text-2xl font-bold text-slate-800 mb-6">特殊事件示意图</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <img 
-                  src="/images/女鬼触发.png" 
+                  src="images/女鬼触发.png" 
                   alt="女鬼触发条件" 
                   className="rounded-2xl w-full h-48 object-cover shadow-md"
                 />
                 <img 
-                  src="/images/女鬼触发2.png" 
+                  src="images/女鬼触发2.png" 
                   alt="女鬼触发条件2" 
                   className="rounded-2xl w-full h-48 object-cover shadow-md"
                 />
               </div>
               <div className="mt-6 flex justify-center">
                 <img 
-                  src="/images/AI赛里斯触发条件.png" 
+                  src="images/AI赛里斯触发条件.png" 
                   alt="AI赛里斯触发条件" 
                   className="rounded-2xl w-full max-w-md h-64 object-cover shadow-md"
                 />
@@ -875,7 +875,7 @@ export default function App() {
               <h3 className="text-2xl font-bold text-slate-800 mb-6">属性加点示意图</h3>
               <div className="flex justify-center">
                 <img 
-                  src="/images/加点示意图.png" 
+                  src="images/加点示意图.png" 
                   alt="属性加点示意图" 
                   className="rounded-2xl w-full max-w-2xl shadow-md"
                 />
@@ -886,19 +886,19 @@ export default function App() {
               <h3 className="text-2xl font-bold text-slate-800 mb-6">特殊事件触发条件</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <img 
-                  src="/images/女鬼触发.png" 
+                  src="images/女鬼触发.png" 
                   alt="女鬼触发条件" 
                   className="rounded-2xl w-full h-48 object-cover shadow-md"
                 />
                 <img 
-                  src="/images/女鬼触发2.png" 
+                  src="images/女鬼触发2.png" 
                   alt="女鬼触发条件2" 
                   className="rounded-2xl w-full h-48 object-cover shadow-md"
                 />
               </div>
               <div className="mt-6 flex justify-center">
                 <img 
-                  src="/images/AI赛里斯触发条件.png" 
+                  src="images/AI赛里斯触发条件.png" 
                   alt="AI赛里斯触发条件" 
                   className="rounded-2xl w-full max-w-md h-64 object-cover shadow-md"
                 />
@@ -934,12 +934,12 @@ export default function App() {
                   <p className="text-purple-700">点击客厅电视机红色按钮，如果闪烁出现对话即达成（没触发睡觉再试）。触发完成后获得塔防道具"鬼"。</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                     <img 
-                      src="/images/女鬼触发.png" 
+                      src="images/女鬼触发.png" 
                       alt="女鬼触发条件" 
                       className="rounded-2xl w-full h-48 object-cover shadow-md"
                     />
                     <img 
-                      src="/images/女鬼触发2.png" 
+                      src="images/女鬼触发2.png" 
                       alt="女鬼触发条件2" 
                       className="rounded-2xl w-full h-48 object-cover shadow-md"
                     />
@@ -951,7 +951,7 @@ export default function App() {
                   <p className="text-orange-700">马里奥豪宅的图书馆墙上有个红色按钮可以解锁实验室。</p>
                   <div className="flex justify-center mt-4">
                     <img 
-                      src="/images/AI赛里斯触发条件.png" 
+                      src="images/AI赛里斯触发条件.png" 
                       alt="AI赛里斯触发条件" 
                       className="rounded-2xl w-full max-w-md h-64 object-cover shadow-md"
                     />
@@ -1019,7 +1019,7 @@ export default function App() {
               <h3 className="text-2xl font-bold text-slate-800 mb-6">全特征展示图</h3>
               <div className="flex justify-center">
                 <img 
-                  src="/images/全特征示意图.png" 
+                  src="images/全特征示意图.png" 
                   alt="全特征展示图" 
                   className="rounded-2xl w-full max-w-2xl shadow-md"
                 />
@@ -1061,7 +1061,7 @@ export default function App() {
                     <p className="font-bold">如下图：</p>
                   <div className="flex justify-center">
                     <img 
-                      src="/images/如下图展示.png" 
+                      src="images/如下图展示.png" 
                       alt="字体配置示意图" 
                       className="rounded-2xl w-full max-w-2xl shadow-md"
                     />
@@ -1073,12 +1073,12 @@ export default function App() {
                   <h4 className="text-xl font-bold text-slate-800 mb-4">翻译后效果</h4>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <img 
-                      src="/images/汉化后效果1.png" 
+                      src="images/汉化后效果1.png" 
                       alt="汉化效果展示1" 
                       className="rounded-2xl w-full shadow-md"
                     />
                     <img 
-                      src="/images/汉化图效果2.png" 
+                      src="images/汉化图效果2.png" 
                       alt="汉化效果展示2" 
                       className="rounded-2xl w-full shadow-md"
                     />
